@@ -1,0 +1,14 @@
+[tool.poetry]
+authors = ["Manuel Schmitz"]
+description = "A Signalbot that replies to your Signal messags using the GPT-3 API"
+name = "gpt3-signalbot"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.1.0"
+flake8 = "^4.0.1"
+pre-commit = "^2.20.0"
+
