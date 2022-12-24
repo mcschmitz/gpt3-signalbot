@@ -1,0 +1,8 @@
+# VSCode
+.vscode
+
+# Env
+.env
+
+# Pythoncache
+*.pyc

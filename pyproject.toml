@@ -6,9 +6,14 @@ version = "0.1.0"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+signalbot = "^0.6.0"
+openai = "^0.25.0"
+pysignalclirestapi = "^0.3.18"
+python-dotenv = "^0.21.0"
+isort = "^5.11.4"
 
 [tool.poetry.group.dev.dependencies]
+wemake-python-styleguide = "^0.17.0"
 black = "^22.1.0"
-flake8 = "^4.0.1"
 pre-commit = "^2.20.0"
 
