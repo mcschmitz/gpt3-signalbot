@@ -25,6 +25,7 @@ docker run --restart=always -p 8080:8080 \
       -e 'MODE=native' bbernhard/signal-cli-rest-api
 ```
 Open http://localhost:8080/v1/qrcodelink?device_name=signal-api in your browser, open Signal on your mobile phone, go to Settings > Linked devices and scan the QR code using the + button.
+
 3. Restart the server in `json-rpc` mode.
 ```bash
 docker run --restart=always -p 8080:8080 \
