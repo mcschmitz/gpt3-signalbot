@@ -1,6 +1,8 @@
 # GPT3-Signalbot
 
-Tired of replying to your Signal messages? Let GPT-3 take care of it
+Tired of replying to your Signal messages? Let GPT-3 take care of it.
+
+This repository is based on [René Filip's signalbot](https://github.com/filipre/signalbot), and [bbernhard's Signal CLI REST Api](https://github.com/bbernhard/signal-cli-rest-api)
 
 ## ⚙️ Setup
 To run, please make sure that you have Python 3.9, and docker installed. To install the dependencies run
@@ -29,4 +31,6 @@ docker run --restart=always -p 8080:8080 \
     -v $SIGNAL_CLI:/home/.local/share/signal-cli \
     -e 'MODE=json-rpc' bbernhard/signal-cli-rest-api
 ```
-As soon as the logs show `time="2022-12-23T17:30:03Z" level=info msg="Started Signal Messenger REST API"` the API is started successfully. 
+As soon as the logs show `time="2022-12-23T17:30:03Z" level=info msg="Started Signal Messenger REST API"` the API is started successfully.
+
+4. Now that the API has started, we can start the bot by running `poetry run python bot.py --service 127.0.0.1:8080 --phone_number <Your-Phone-Number>`
