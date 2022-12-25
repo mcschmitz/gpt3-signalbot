@@ -2,7 +2,7 @@
 
 Tired of replying to your Signal messages? Let GPT-3 take care of it.
 
-<div align="center">
+<div align="center" style="height: 100px>
   <img src="https://github.com/mcschmitz/gpt3-signalbot/blob/doc-and-test/gif/ezgif-5-e93d89a10b.gif">
 </div>
 
