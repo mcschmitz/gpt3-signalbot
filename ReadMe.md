@@ -2,8 +2,8 @@
 
 Tired of replying to your Signal messages? Let GPT-3 take care of it.
 
-<div align="center" style="height: 100px">
-  <img src="https://github.com/mcschmitz/gpt3-signalbot/blob/doc-and-test/gif/ezgif-5-e93d89a10b.gif">
+<div align="center" >
+  <img src="https://github.com/mcschmitz/gpt3-signalbot/blob/doc-and-test/gif/ezgif-5-e93d89a10b.gif" "height: 100px">
 </div>
 
 This repository is based on [René Filip's signalbot](https://github.com/filipre/signalbot), and [bbernhard's Signal CLI REST Api](https://github.com/bbernhard/signal-cli-rest-api)
