@@ -39,3 +39,5 @@ docker run --restart=always -p 8080:8080 \
 As soon as the logs show `time="2022-12-23T17:30:03Z" level=info msg="Started Signal Messenger REST API"` the API is started successfully.
 
 4. Now that the API has started, we can start the bot by running `poetry run python bot.py --service 127.0.0.1:8080 --phone_number <Your-Phone-Number>`
+
+**Note:** Per default the bot will listen, and reply to all messages. If you want the bot to reply only to specific groups you can pass the `--groups` argument when running the script. This argument accepts a list of group names.
